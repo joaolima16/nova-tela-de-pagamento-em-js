@@ -1,0 +1,67 @@
+
+body{
+    background-color: cadetblue;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+    
+}    
+form input[type=number],
+form input[type=password]{
+    width:100%;
+     height: 46px;
+    border: 1px solid;
+    padding-left: 10px;
+    margin: 8px 0;
+    border-radius: 30px;
+    text-shadow:2px  black;
+    
+}
+
+
+form{
+    background-color: whitesmoke;
+    max-width: 500px;
+    width: 70%;
+    padding:20px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 1px 1px rgb(94, 94, 94);
+    border-radius: 20px;
+ 
+}
+form input[type=submit]{
+    width: 100%;
+    height: 45px;
+    background: rgb(160, 160, 160);
+    color: rgb(134, 134, 134);
+    cursor: pointer;
+    border:0;
+    border-radius: 30px;
+    transition: 1s  ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+form h1{
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+select{
+    margin-left: 35%;
+    width: 150px;
+    height: 20px;
+    font-size: 15px;
+    font-style: oblique;
+    
+}
+h2{
+    text-align: center;
+    color: black;
+}

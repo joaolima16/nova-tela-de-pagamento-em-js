@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(26, 199, 98);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+    
+}    
+form input[type=number],
+form input[type=password]{
+    width:100%;
+     height: 46px;
+    border: 1px solid;
+    padding-left: 10px;
+    margin: 8px 0;
+    border-radius: 30px;
+    text-shadow:2px  black;
+    
+}
+
+
+form{
+    background-color: whitesmoke;
+    max-width: 500px;
+    width: 70%;
+    padding:20px;
+    position:fixed;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 1px 1px rgb(145, 145, 145);
+    border-radius: 15px;
+ 
+}
+form input[type=submit]{
+    width: 100%;
+    height: 45px;
+    background: rgb(6, 143, 79);
+    color: rgba(253, 253, 253, 0.596);
+    cursor: pointer;
+    border:0;
+    border-radius: 30px;
+    transition: 1s  ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+form h1{
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#imagem{
+width: 130px;
+padding-left: 28%;
+padding-top: 3px;
+}
+    
+
+p{
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px white;
+    font-size: medium;
+}
+h3{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form input[type=submit]:hover{
+    background-color:rgb(0, 46, 6);
+    transition: 1s;
+}

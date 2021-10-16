@@ -1,0 +1,33 @@
+
+
+body{
+    background-image: linear-gradient(to left , rgb(185, 185, 185) , rgb(0, 0, 0));
+    font-size: 15px arial;
+    text-align: center;
+}
+section{
+    background-image: url(9e9dd9c7-4ddd-4c68-a8f2-dae904e7ff73.jpg);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    color: whitesmoke;
+    box-shadow: 5px 5px 10px rgb(7, 2, 2);
+    height: 100%;
+}
+input{
+    display: inline;
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+}
